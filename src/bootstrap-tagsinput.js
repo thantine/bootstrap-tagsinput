@@ -503,7 +503,7 @@
             self.add(self.$element.val());
         } else {
           $('option', self.$element).each(function() {
-            self.add($(this).attr('value'), true);
+            self.add($(this).text(), true);
           });
         }
       }

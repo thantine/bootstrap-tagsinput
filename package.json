@@ -4,7 +4,8 @@
   "version": "0.8.0",
   "description": "jQuery plugin providing a Twitter Bootstrap user interface for managing tags.",
   "scripts": {
-    "test": "karma start --single-run --no-auto-watch"
+    "test": "grunt test",
+    "build": "grunt build"
   },
   "main": "dist/bootstrap-tagsinput.js",
   "repository": {
